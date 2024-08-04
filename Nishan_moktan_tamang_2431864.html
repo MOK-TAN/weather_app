@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Nishan_moktan_tamang_2431864.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER PART OF WEATHER APP -->
+      <div id="header">
+        <h4 id="head_title">WEATHER APP</h4>
+        <div id="input_field">
+          <input id="input_text" type="text" placeholder="Enter city name" />
+          <button type="submit" id="search_btn">Search</button>
+        </div>
+        <div id="date">2024/8/4</div>
+      </div>
+
+      <!-- TO DISPLAY ERROR WHEN CITY NOT AVAILABLE -->
+      <div id="error"></div>
+
+      <!-- BODY PART OF WEATHER APP -->
+      <div id="body">
+        <div id="weather_desc">
+          <div id="temperature_icon">
+            <div id="weather_condition_icon">
+              <img
+                id="weather_condition_icon_img"
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="chaina aile"
+              />
+            </div>
+            <div id="weather_location_id">
+              <h6 id="weather_location"></h6>
+            </div>
+            <div id="temperature">
+              <h5 id="temp_no">
+                <span id="temp_number"></span>
+                <span id="unit">&deg; </span>
+                <span id="unit_degree"><sup>C</sup></span>
+              </h5>
+              <h6 id="temperature_condition"></h6>
+            </div>
+          </div>
+          <div id="other_weather">
+            <div class="weather_other" id="humidity">
+              <img
+                src="https://toppng.com/uploads/preview/humidity-png-11553951584jnjjmw2gwp.png"
+                width="50px"
+                height="50px"
+                alt="humidity image"
+                class="icon_weather"
+              />
+              <h6>HUMIDITY</h6>
+              <p class="weather_other_detail" id="humidity_no">0</p>
+            </div>
+            <div class="weather_other" id="wind_speed">
+              <img
+                src="https://www.pngitem.com/pimgs/m/95-950144_wind-speed-weather-forecasting-clip-art-wind-icon.png"
+                width="50px"
+                height="50px"
+                alt="wind speed image"
+                class="icon_weather"
+              />
+              <h6>WIND SPEED</h6>
+              <p class="weather_other_detail" id="windspeed_no">0</p>
+            </div>
+            <div class="weather_other" id="pressure">
+              <img
+                src="https://w1.pngwing.com/pngs/95/194/png-transparent-water-circle-pressure-hydrostatic-test-atmospheric-pressure-hydrostatics-symbol-relief-valve-high-pressure.png"
+                width="50px"
+                height="50px"
+                alt="pressure image"
+                class="icon_weather"
+              />
+              <h6>PRESSURE</h6>
+              <p class="weather_other_detail" id="pressure_no">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER PART OF WEATHER APP -->
+      <div id="footer">
+        <h6>&COPY; MOK TAN</h6>
+      </div>
+    </div>
+    <script src="Nishan_moktan_tamang_2431864.js"></script>
+  </body>
+</html>
